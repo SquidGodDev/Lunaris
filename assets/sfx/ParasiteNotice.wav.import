@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ParasiteNotice.wav-d1b3893c81f9ebc782abe718041d0dd7.sample"
+
+[deps]
+
+source_file="res://assets/sfx/ParasiteNotice.wav"
+dest_files=[ "res://.import/ParasiteNotice.wav-d1b3893c81f9ebc782abe718041d0dd7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

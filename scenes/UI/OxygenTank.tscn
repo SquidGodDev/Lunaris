@@ -1,0 +1,60 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/art/UI/OxygenTank.png" type="Texture" id=1]
+[ext_resource path="res://scripts/OxygenTank.gd" type="Script" id=2]
+
+[sub_resource type="Gradient" id=1]
+colors = PoolColorArray( 0, 0, 0, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+width = 400
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[node name="OxygenTank" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -205.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="TextureRect" parent="."]
+margin_left = 374.0
+margin_top = 49.0
+margin_right = 390.0
+margin_bottom = 209.0
+texture = SubResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+margin_left = 375.0
+margin_top = 209.0
+margin_right = 535.0
+margin_bottom = 223.0
+rect_rotation = 270.0
+custom_styles/fg = SubResource( 3 )
+custom_styles/bg = SubResource( 4 )
+value = 50.0
+percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OxygenTankSprite" type="TextureRect" parent="."]
+margin_left = 363.951
+margin_top = 19.0488
+margin_right = 403.951
+margin_bottom = 219.049
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

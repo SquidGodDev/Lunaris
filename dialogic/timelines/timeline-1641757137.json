@@ -1,0 +1,29 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "HQ3",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ3",
+			"text": "The station is self destructing! [shake]RUN![/shake]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1641757137.json",
+		"name": "ChaseSequence"
+	}
+}

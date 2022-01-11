@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Blink.wav-6d0fd6b35850901de1a82ff9bf66ca33.sample"
+
+[deps]
+
+source_file="res://assets/sfx/Blink.wav"
+dest_files=[ "res://.import/Blink.wav-6d0fd6b35850901de1a82ff9bf66ca33.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

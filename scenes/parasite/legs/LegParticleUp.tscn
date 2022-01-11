@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/parasite/legs/UpLegParticles.tres" type="Material" id=1]
+[ext_resource path="res://assets/art/enemy/whiteCircle.png" type="Texture" id=2]
+[ext_resource path="res://scripts/LegParticle.gd" type="Script" id=3]
+
+[node name="LegParticleUp" type="Particles2D"]
+amount = 100
+lifetime = 1.5
+process_material = ExtResource( 1 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+direction = Vector2( 0, -1 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[connection signal="tween_all_completed" from="Tween" to="." method="_on_Tween_tween_all_completed"]

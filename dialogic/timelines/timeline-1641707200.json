@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "HQ1",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ1",
+			"text": "HQ needs you to trigger [b]10[/b] of these computers. They control doors as well as the station self destruct sequence."
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ2",
+			"text": "You're getting too far into the station so we'll be losing contact. Good luck out there."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1641707200.json",
+		"name": "ComputerTutorial"
+	}
+}

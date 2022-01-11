@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ComputerActivated.wav-5e8e0aea16629295cece9f4c3df828fb.sample"
+
+[deps]
+
+source_file="res://assets/sfx/ComputerActivated.wav"
+dest_files=[ "res://.import/ComputerActivated.wav-5e8e0aea16629295cece9f4c3df828fb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

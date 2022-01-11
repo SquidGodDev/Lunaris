@@ -1,0 +1,47 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "HQ1",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ2",
+			"text": "This is an [b]Oxygen Supply[/b]. Walk right up to it to refill your [b]Oxygen Meter[/b]."
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ1",
+			"text": "Watch out for [b]Parasites[/b]. They make your oxygen levels fall more quickly."
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ2",
+			"text": "Also, it seems these machines output a sound frequency the parasite body cannot handle."
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ1",
+			"text": "When first connecting to an Oxygen Supply, [b]nearby parasites will die[/b]."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1641707183.json",
+		"name": "OxygenTutorial"
+	}
+}

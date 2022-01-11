@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "HQ1",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ1",
+			"text": "Looks like you made it."
+		},
+		{
+			"character": "character-1641702955.json",
+			"event_id": "dialogic_001",
+			"portrait": "HQ2",
+			"text": "Try moving around with either [b]←[/b] and [b]→[/b] or [b]A[/b] and [b]D[/b]. [b]Jump[/b] and [b]Double Jump[/b] with either [b]Spacebar[/b], [b]W[/b], or [b]↑[/b]."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1641703919.json",
+		"name": "Intro"
+	}
+}

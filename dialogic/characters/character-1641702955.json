@@ -1,0 +1,32 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1641702955.json",
+	"mirror_portraits": false,
+	"name": "HQ",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 40,
+	"offset_y": -90,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/art/player/HQ1.png"
+		},
+		{
+			"name": "HQ1",
+			"path": "res://assets/art/player/HQ1.png"
+		},
+		{
+			"name": "HQ2",
+			"path": "res://assets/art/player/HQ2.png"
+		},
+		{
+			"name": "HQ3",
+			"path": "res://assets/art/player/HQ3.png"
+		}
+	],
+	"scale": 200
+}
